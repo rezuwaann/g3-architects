@@ -135,14 +135,38 @@ main>section {
     font-weight: 500;
 }
 
+/* features you will love */
+.features{
+    gap: 140px;
+}
+#feature-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.feature-card
+.feature-card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+.feature-card
+{
+    border-radius: 8px;
+ padding: 30px;
+ box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06) ;
+}
 /* some facts */
-.facts-container{
+.facts-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     /* gap: 124px;
     margin :0 auto; */
 }
-.fact-card{
+
+.fact-card {
     border: 1px solid #FF900E;
     border-radius: 8px;
     height: 241px;
@@ -151,19 +175,21 @@ main>section {
     justify-content: center;
     align-items: center;
 }
-.fact-number{
+
+.fact-number {
     font-size: 2.8rem;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 5px;
 }
-.fact-name{
+
+.fact-name {
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 10px;
 }
 
-.fact-description{
+.fact-description {
     max-width: 540px;
     margin-bottom: 100px;
 }
@@ -171,19 +197,19 @@ main>section {
 
 /* sponsor section */
 
-.sponsor-info{
+.sponsor-info {
     max-width: 540px;
     margin: 50px auto;
     text-align: center;
 }
 
-.sponsor-companies{
-display: grid;
-grid-template-columns: repeat(5,1fr);
+.sponsor-companies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 
-.sponsor-companies img{
-filter: grayscale(100%);
+.sponsor-companies img {
+    filter: grayscale(100%);
 }
 
 
@@ -206,15 +232,15 @@ filter: grayscale(100%);
     }
 
     .facts-container,
-    .sponsor-companies{
-        grid-template-columns:1fr;
+    .sponsor-companies {
+        grid-template-columns: 1fr;
         justify-items: center;
         gap: 24px;
     }
 
-   .sponsor-companies{
-    gap: 50px;
-   }
+    .sponsor-companies {
+        gap: 50px;
+    }
 }
 
 
@@ -227,11 +253,12 @@ filter: grayscale(100%);
     .our-features {
         margin: 50px auto;
     }
-.facts-container,
-.sponsor-companies{
-    grid-template-columns: repeat(2,1fr);
-    justify-items: center;
-    gap: 50px;
-}
-   
+
+    .facts-container,
+    .sponsor-companies {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 50px;
+    }
+
 }
